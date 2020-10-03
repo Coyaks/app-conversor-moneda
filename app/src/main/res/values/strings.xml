@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Semana6_controles</string>
+    <string name="app_titulo">App conversor de moneda</string>
+    <string name="btnProcesar">PROCESAR</string>
+    <string name="rta">New valor</string>
+    <string name="hint_input">Ingrese valor a cambiar</string>
+</resources>

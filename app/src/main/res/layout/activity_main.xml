@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="@string/app_titulo"
+        android:textColor="#4CAF50"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/hint_input"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton_soles_dolares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="De soles a dólares"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton_dolares_sol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="De dólares a soles"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#4CAF50"
+        android:onClick="procesar"
+        android:text="@string/btnProcesar"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_rta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rta"
+        android:textSize="24sp" />
+</LinearLayout>
